@@ -224,16 +224,16 @@ namespace Tyuiu.ChurinDV.Sprint6.Task4.V6
             this.chartFunction_CDV.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chartFunction_CDV.Legends.Add(legend1);
-            this.chartFunction_CDV.Location = new System.Drawing.Point(10, 7);
+            this.chartFunction_CDV.Location = new System.Drawing.Point(0, 0);
             this.chartFunction_CDV.Name = "chartFunction_CDV";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartFunction_CDV.Series.Add(series1);
-            this.chartFunction_CDV.Size = new System.Drawing.Size(562, 300);
+            this.chartFunction_CDV.Size = new System.Drawing.Size(581, 311);
             this.chartFunction_CDV.TabIndex = 0;
-            this.chartFunction_CDV.Text = "График функции";
+            this.chartFunction_CDV.Text = "График функции 3cos(x) / 4x - 0,5 + sin(x) -5x - 2";
             // 
             // splitterPanels_CDV
             // 
